@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="dvGame">
+        <div id="dvBowl"></div>
+        <div id="dvPlayer" class="bar left"></div>
+        <div id="dvCpu" class="bar right"></div>
+    </div>
+    <div id="dvPanel">
+        <div id="dvScoreboard">
+            <label class="greenColor">Jogador</label>
+            <span id="txtPlayer" class="greenColor">0</span>
+            <label>X</label>
+            <span id="txtCPU" class="redColor">0</span>
+            <label class="redColor">CPU</label>
+        </div>
+        <div>
+            <button id="btInitial">Iniciar</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

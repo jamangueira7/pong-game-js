@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-color: #aaa;
+}
+
+#dvPanel {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.itemPanel {
+    margin: 5px;
+}
+
+#dvGame {
+    width: 960px;
+    height: 500px;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+#dvBowl {
+    position: absolute;
+    top: 240px;
+    left: 475px;
+    width: 20px;
+    height: 20px;
+    background-color: #888;
+}
+
+#dvPlayer {
+    background-color: #006400;
+}
+
+#dvCpu {
+    background-color: #ec2300;
+}
+
+#dvScoreboard {
+    width: 800px;
+    font-weight: bold;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.greenColor{
+    color: #006400;
+}
+
+.redColor{
+    color: #ec2300;
+}
+
+#dvScoreboard span, label {
+    padding-left: 15px;
+}
+
+.bar {
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    background-color: #888;
+    top: 188px;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    left: 930px;
+}
+
+#btInitial {
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #888;
+}
